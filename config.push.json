@@ -1,0 +1,16 @@
+{
+  "apn": {
+    "passphrase": "bbi123456",
+    "key": "yesmasterPush_Key.pem",
+    "cert": "yesmasterPush_Cert.pem"
+  },
+  "gcm": {
+    "apiKey": "AIzaSyBTU7WqKiSQdWTGK4tgJSQHlTA91PCV3CA",
+    "projectNumber": 753581147611
+  },
+  "production":false,
+  "badge": true,
+  "sound": true,
+  "alert": true,
+  "vibrate": true
+}

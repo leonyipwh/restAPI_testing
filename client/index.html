@@ -4,5 +4,13 @@
 </template>
 
 <template name="index">
+  {{> loginButtons}}
   This is index
+  <div id="userId">
+    {{loggedIn}}
+  </div>
+  <input type="text" id="id" value="" placeholder="id">
+  <input type="text" id="title" value="" placeholder="text">
+  <input type="text" id="msg" value="" placeholder="msg">
+  <input type="button" id="send" name="" value="Send">
 </template>
