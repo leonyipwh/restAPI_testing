@@ -10,6 +10,7 @@
 // Export Data -> csvManager.exportData(data, 'filename');
 // Import Data -> csvManager.importData(event, template, 'selecor');
 // Upload CSV -> csvManager.uploadCsv(event);
+// Upload path -> collections/upload.js
 
 // Example:
 // 'change .fileUpload':function(event, template){
