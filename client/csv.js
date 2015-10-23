@@ -14,7 +14,10 @@ Template.csv.events({
        "Column 2": "def"
      }
     ];
-    //csvManager.getData(data, filename);
-    csvManager.getData(data, 'filename');
+    csvManager.exportCSV(data, 'filename');
   },
+  'change .fileUpload':function(event, template){
+    // csvManager.uploadCSV(event, template);
+    csvManager.importCSV(event, template, '#uploader');
+  }
 });

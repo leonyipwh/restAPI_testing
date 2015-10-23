@@ -23,3 +23,9 @@ accounts-ui
 accounts-password
 raix:push
 harrison:papa-parse
+cfs:standard-packages
+cfs:filesystem
+meteorhacks:npm
+
+
+npm-container

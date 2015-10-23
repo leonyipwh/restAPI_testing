@@ -1,6 +1,6 @@
 <template name="csv">
   csv
-  {{ start }}
-  <a href="{{pathFor 'csvFile'}}">Download the CSV</a>
+    <input multiple type="file" id="uploader" class="fileUpload">
+  <!-- <a href="{{pathFor 'csvFile'}}">Download the CSV</a> -->
   <a id="csvExport" href="">Export</a>
 </template>
